@@ -1,8 +1,10 @@
 # Bundler
-alias       bc='bundler console'
-alias       be='bundler exec'
-alias       bs='bundler show'
-alias       bo='bundler open'
+alias       bc='bundle console'
+alias       be='bundle exec'
+alias       bi='bundle install'
+alias       bs='bundle show'
+alias       bo='bundle open'
+alias       bu='bundle update'
 
 # Editor
 alias        a='atom -n'
@@ -26,3 +28,4 @@ alias     logs="find ~ -name '*.log' -print0 | xargs -0 -L1 stat -f'%z %N' | sor
 
 # Miscellaneous
 alias   mkdirp='mkdir -p'
+alias   reload='source ~/.zshrc'
