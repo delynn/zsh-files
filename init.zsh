@@ -10,5 +10,5 @@ source $SOURCE/functions/functions.zsh
 source $SOURCE/libs/grep.zsh
 source $SOURCE/libs/history.zsh
 
-# Paths
-source $SOURCE/paths/path.zsh
+# Exports
+source $SOURCE/exports/exports.zsh
