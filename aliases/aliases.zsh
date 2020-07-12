@@ -7,8 +7,8 @@ alias       bo='bundle open'
 alias       bu='bundle update'
 
 # Editor
-alias        a='atom -n'
-alias        s='atom -n'
+alias        a='code -n'
+alias        s='code -n'
 
 # Git
 alias        g='git'
