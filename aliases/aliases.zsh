@@ -17,9 +17,6 @@ alias        l='ls -lac'
 alias       ll='ls -lc'
 alias      lsa='ls -lahc'
 
-# PS
-alias      psa='psa | grep '
-
 # OS X
 alias  dnsclear="dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias  dsunhook="find . -name '.DS_Store' -exec rm -rf {} \;"
