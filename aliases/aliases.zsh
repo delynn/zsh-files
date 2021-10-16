@@ -7,7 +7,7 @@ alias       bo='bundle open'
 alias       bu='bundle update'
 
 # Editor
-alias        s='/usr/bin/env code -n'
+alias        c='/usr/bin/env code -n'
 
 # Git
 alias        g='git'
