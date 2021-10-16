@@ -2,6 +2,10 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+# VS Code
+export EDITOR="/usr/bin/env code -w"
+export BUNDLER_EDITOR="/usr/bin/env code -n"
+
 # NVM
 export NVM_DIR=~/.nvm
 
