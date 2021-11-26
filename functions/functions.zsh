@@ -1,6 +1,6 @@
 s() { cd ~/src/$1; }
 _s() { _files -W ~/src -/; }
-compdef _c c
+compdef _s s
 
 h() { cd ~/$1; }
 _h() { _files -W ~/ -/; }
