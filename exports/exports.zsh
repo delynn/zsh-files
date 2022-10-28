@@ -8,6 +8,8 @@ export BUNDLER_EDITOR="/usr/bin/env code -n"
 
 # NVM
 export NVM_DIR=~/.nvm
+export NODE_VERSIONS="${NVM_DIR}/versions/node"
+export NODE_VERSION_PREFIX="v"
 
 # Ruby OpenSSL
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
