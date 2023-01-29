@@ -19,3 +19,6 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 # Path Customization
 export PATH="/usr/local/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
+# Secretive Agent
+export SSH_AUTH_SOCK=/Users/delynn/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
